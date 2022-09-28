@@ -5,12 +5,12 @@ import Float "mo:base/Float";
 actor DBank {
   /*Variable*/
   stable var currenValue : Float = 300;
-  currenValue := 300;
+  // currenValue := 300;
     Debug.print(debug_show (currenValue));
 
 
   var startTime = Time.now();
-  startTime := Time.now();
+  // startTime := Time.now();
   Debug.print(debug_show (startTime));
 
   /*Constant*/
